@@ -7,3 +7,9 @@
         background-color: dodgerblue;
     }
 }
+
+@media(min-width: 992px) {
+    .container{ 
+        background-color: plum;
+    }
+}
