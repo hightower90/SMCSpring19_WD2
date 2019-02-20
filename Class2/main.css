@@ -1,0 +1,9 @@
+.container {
+    background-color: rgb(196, 15, 15);
+}
+
+@media(min-width: 768px) {
+    .container {
+        background-color: dodgerblue;
+    }
+}
