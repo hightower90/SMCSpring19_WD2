@@ -4,7 +4,7 @@ body {
 
 
 .container {
-    background-color: red;
+    background-color:paleturquoise;
     width: 100%;
     min-height: 300px;
 
@@ -49,6 +49,10 @@ nav.navbar li:last-child {
 .active {font-weight: 600;
 }
 
+.small-image {
+    width: 100%;
+
+}
 
 @media(min-width: 768px) {
     .container {
@@ -63,8 +67,8 @@ nav.navbar li:last-child {
         border-right: 2px solid;
         padding: 0px 10px;
     }
-}
 
+}
 
 
 @media(min-width: 992px) {

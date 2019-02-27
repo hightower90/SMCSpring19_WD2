@@ -1,0 +1,25 @@
+.container {
+    background-color: oldlace;
+}
+
+.red {
+    background-color: lightcoral;
+}
+
+.blue {
+    background-color: powderblue;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.floater-section object{
+    float: left;
+    width: 100%;
+    min-height: 200px;
+}
+
+.clearfix {
+    clear: both;
+}
