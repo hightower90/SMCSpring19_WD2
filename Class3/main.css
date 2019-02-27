@@ -1,5 +1,5 @@
 .container {
-    background-color: oldlace;
+    background-color: lightgrey;
 }
 
 .red {
@@ -32,6 +32,7 @@
     width: 100%;
     min-height: 200px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .clearfix {
@@ -39,7 +40,7 @@
 }
 
 
-/***************SMALL SCREEN*****************/
+/***************SMALL SCREENS*****************/
 @media (min-width: 450px) {
     .small-width-25 {
         width: 25%;
@@ -59,7 +60,7 @@
 }
 
 
-/***************MEDIUM SCREEN*****************/
+/***************MEDIUM SCREENS*****************/
 @media (min-width: 768px) {
     .med-width-25 {
         width: 25%;
@@ -79,7 +80,7 @@
 }
 
 
-/***************LARGE SCREEN*****************/
+/***************LARGE SCREENS*****************/
 @media (min-width: 992px) {
     .large-width-25 {
         width: 25%;
