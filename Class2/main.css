@@ -19,7 +19,7 @@ nav.navbar {
 nav.navbar a { 
     font-size: 22px;
     text-decoration: none;
-    color: darkred;
+    color: paleturquoise;
     line-height: 36px;
 }
 
@@ -30,13 +30,19 @@ nav.navbar ul {
 }
 
 nav.navbar li {
-    border-bottom: 2px solid darkred;
+    border-bottom: 2px solid paleturquoise;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
 }
 
 nav.navbar li:last-child {
     border-bottom: none;
+    border-right: none;
 }
 
+.active {font-weight: 600;
+    
+}
 
 
 @media(min-width: 768px) {
@@ -48,6 +54,9 @@ nav.navbar li:last-child {
 
     nav.navbar li {
         display: inline-block;
+        border-bottom: none;
+        border-right: 2px solid;
+        padding: 0px 10px;
     }
 }
 
