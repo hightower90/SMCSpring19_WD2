@@ -10,6 +10,12 @@ body {
 
 }
 
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 24;
+}
+
 nav.navbar {
     background-color: seagreen;
     width: 100%;
@@ -41,7 +47,6 @@ nav.navbar li:last-child {
 }
 
 .active {font-weight: 600;
-    
 }
 
 
