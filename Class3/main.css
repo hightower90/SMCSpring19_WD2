@@ -14,12 +14,62 @@
     background-color: greenyellow;
 }
 
-.floater-section object{
+.yellow {
+    background-color: gold;
+}
+
+.cyan {
+    background-color: darkturquoise;
+}
+
+.purple {
+    background-color: plum;
+}
+
+
+.floater-section {
     float: left;
     width: 100%;
     min-height: 200px;
+    margin-bottom: 20px;
 }
 
 .clearfix {
     clear: both;
+}
+
+
+
+@media (min-width: 450px) {
+    .floater-section {
+        width: 50%;
+    }
+    .small-width-100 {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .floater-section {
+        width: 33.3333%;
+    }
+
+    .med-width-100 {
+        width: 100%;
+    }
+
+    .med-width-50 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .floater-section { 
+        width: 25%;
+    }
+
+    .large-width-50 {
+        width: 50%;
+    }
 }
