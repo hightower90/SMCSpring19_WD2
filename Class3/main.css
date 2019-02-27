@@ -39,37 +39,61 @@
 }
 
 
-
+/***************SMALL SCREEN*****************/
 @media (min-width: 450px) {
-    .floater-section {
+    .small-width-25 {
+        width: 25%;
+    }
+
+    .small-width-33 {
+        width: 33.333%;
+    }
+
+    .small-width-50 {
         width: 50%;
     }
+
     .small-width-100 {
         width: 100%;
-    }
+    } 
 }
 
 
+/***************MEDIUM SCREEN*****************/
 @media (min-width: 768px) {
-    .floater-section {
-        width: 33.3333%;
+    .med-width-25 {
+        width: 25%;
     }
-
-    .med-width-100 {
-        width: 100%;
+    
+    .med-width-33 {
+        width: 33.3333%;
     }
 
     .med-width-50 {
         width: 50%;
     }
+
+    .med-width-100 {
+        width: 100%;
+    }
 }
 
+
+/***************LARGE SCREEN*****************/
 @media (min-width: 992px) {
-    .floater-section { 
+    .large-width-25 {
         width: 25%;
+    }
+    
+    .large-width-33 {
+        width: 33.3333%;
     }
 
     .large-width-50 {
         width: 50%;
+    }
+
+    .large-width-100 {
+        width: 100%;
     }
 }
