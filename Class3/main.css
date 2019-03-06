@@ -59,14 +59,14 @@
 
 /****************Naviagtion Bar******************/
 h1 {
-    font-family: 'Cardo-Bold', serif;
+    font-family: Cardo-Italic, serif;
     text-align: center;
-    font-size: 24;
+    font-size: 20;
     color: black;
 }
 
 nav.navbar {
-    background-color: goldenrod;
+    background-color: rgba(218, 165, 32, 0.336);
     width: 100%;
     padding: 10px 0px;
 }
@@ -74,7 +74,7 @@ nav.navbar {
 nav.navbar a { 
     font-size: 22px;
     text-decoration: none;
-    color: paleturquoise;
+    color: black;
     line-height: 36px;
 }
 
@@ -85,8 +85,8 @@ nav.navbar ul {
 }
 
 nav.navbar li {
-    border-bottom: red;
-    font-family: 'Cardo-Reguler', serif;
+    border-bottom: 2px red solid;
+    font-family: Cardo-Italic, serif;
     font-weight: 100;
 }
 
@@ -95,7 +95,8 @@ nav.navbar li:last-child {
     border-right: none;
 }
 
-.active {font-weight: 600;
+.active {
+        font-family: Cardo-Bold, serif; 
 }    
 /***************SMALL SCREENS*****************/
 @media (min-width: 450px) {
@@ -154,4 +155,10 @@ nav.navbar li:last-child {
     .large-width-100 {
         width: 100%;
     }
+
+    @media(min-width: 992px) {
+        .container{ 
+            background-color: plum;
+            float: left;
+        }
 }
