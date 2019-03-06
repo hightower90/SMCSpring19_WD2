@@ -1,10 +1,9 @@
 body { 
     margin: 0;
-    background-color: rgba(218, 165, 32, 0.336);
+    background-color: #cdcdcd;
 }
 
 .container {
-    background-color: lightgrey;
     font-family: Cardo-Regular;
 }
 
@@ -94,9 +93,10 @@ nav.navbar ul {
 }
 
 nav.navbar li {
-    border-bottom: 2px  darkred solid;
+    border-bottom: 2px  #FF0000;
     font-family: Cardo-Italic, serif;
     font-weight: 100;
+
 }
 
 nav.navbar li:last-child {
@@ -124,6 +124,8 @@ nav.navbar li:last-child {
     .small-width-100 {
         width: 100%;
     } 
+
+   
 }
 
 
@@ -144,6 +146,12 @@ nav.navbar li:last-child {
     .med-width-100 {
         width: 100%;
     }
+
+    nav.navbar li {
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
 }
 
 
@@ -165,13 +173,10 @@ nav.navbar li:last-child {
         width: 100%;
     }
 
-    @media(min-width: 992px) {
-        .container{ 
-            background-color: rgba(218, 165, 32, 0.336);
-            float: left;
+    nav.navbar li {
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
         }
 
-        h1 {
-            display: block;
-        }
-}
+    }
