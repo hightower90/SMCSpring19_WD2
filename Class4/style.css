@@ -1,14 +1,36 @@
+.container {
+    margin: auto;
+    background-color: lavenderblush;
+}
+
+
 .content {
     padding: 0px 10px;
-    min-height: 536px;
+    min-height: 572px;
     border-bottom: 2px solid darkorchid;
+    position: relative;
 }
 
 
 .content .img-container {
-    min-height: 200px;
+    min-height: 160px;
 }
 
 .content img {
     max-width: 100%;
+}
+
+.content .abs-pos {
+    position: absolute;
+}
+
+#jkrOverlap {
+    position: absolute;
+    
+}
+
+#jkrTitle {
+    top: 200px;
+    right: 30px
+    color:   whitesmoke;
 }

@@ -1,3 +1,8 @@
+.container {
+    margin: auto;
+    background-color: lemonchiffon;
+}
+
 body { 
     margin: 0;
 }
@@ -21,6 +26,11 @@ body {
 
 /***************SMALL SCREENS*****************/
 @media (min-width: 450px) {
+    
+    .container {
+        width: 440px;
+    }
+    
     .small-width-25 {
         width: 25%;
     }
@@ -43,6 +53,11 @@ body {
 
 /***************MEDIUM SCREENS*****************/
 @media (min-width: 768px) {
+
+    .container {
+        width: 760px;
+    }
+
     .med-width-25 {
         width: 25%;
     }
@@ -69,6 +84,11 @@ body {
 
 /***************LARGE SCREENS*****************/
 @media (min-width: 992px) {
+
+    .container {
+        width: 980px;
+    }
+
     .large-width-25 {
         width: 25%;
     }
