@@ -1,0 +1,14 @@
+.content {
+    padding: 0px 10px;
+    min-height: 536px;
+    border-bottom: 2px solid darkorchid;
+}
+
+
+.content .img-container {
+    min-height: 200px;
+}
+
+.content img {
+    max-width: 100%;
+}

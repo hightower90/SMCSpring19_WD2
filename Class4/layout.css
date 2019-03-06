@@ -1,0 +1,94 @@
+body { 
+    margin: 0;
+}
+
+
+.floater-section {
+    float: left;
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+
+
+
+/***************SMALL SCREENS*****************/
+@media (min-width: 450px) {
+    .small-width-25 {
+        width: 25%;
+    }
+
+    .small-width-33 {
+        width: 33.333%;
+    }
+
+    .small-width-50 {
+        width: 50%;
+    }
+
+    .small-width-100 {
+        width: 100%;
+    } 
+
+   
+}
+
+
+/***************MEDIUM SCREENS*****************/
+@media (min-width: 768px) {
+    .med-width-25 {
+        width: 25%;
+    }
+    
+    .med-width-33 {
+        width: 33.3333%;
+    }
+
+    .med-width-50 {
+        width: 50%;
+    }
+
+    .med-width-100 {
+        width: 100%;
+    }
+
+    nav.navbar li {
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+}
+
+
+/***************LARGE SCREENS*****************/
+@media (min-width: 992px) {
+    .large-width-25 {
+        width: 25%;
+    }
+    
+    .large-width-33 {
+        width: 33.3333%;
+    }
+
+    .large-width-50 {
+        width: 50%;
+    }
+
+    .large-width-100 {
+        width: 100%;
+    }
+
+    nav.navbar li {
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+
+    }
