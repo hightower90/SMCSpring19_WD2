@@ -1,6 +1,8 @@
 .container {
     background-color: lightgrey;
+    font-family: Cardo-Regular;
 }
+
 
 .red {
     background-color: lightcoral;
@@ -39,7 +41,62 @@
     clear: both;
 }
 
+    @font-face {
+        font-family: 'Cardo-Regular', serif;
+        src: url ('fonts/Cardo-Regular.ttf');
+    }
 
+    @font-face {
+        font-family: 'Cardo-Italic', serif;
+        src: url ('fonts/Cardo-Italic.ttf');
+    }
+
+    @font-face {
+        font-family: 'Cardo-Bold', serif;
+        src: url ('fonts/Cardo-Bold.ttf');
+    }
+
+
+/****************Naviagtion Bar******************/
+h1 {
+    font-family: 'Cardo-Bold', serif;
+    text-align: center;
+    font-size: 24;
+    color: black;
+}
+
+nav.navbar {
+    background-color: goldenrod;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+nav.navbar a { 
+    font-size: 22px;
+    text-decoration: none;
+    color: paleturquoise;
+    line-height: 36px;
+}
+
+nav.navbar ul {
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+
+nav.navbar li {
+    border-bottom: red;
+    font-family: 'Cardo-Reguler', serif;
+    font-weight: 100;
+}
+
+nav.navbar li:last-child {
+    border-bottom: none;
+    border-right: none;
+}
+
+.active {font-weight: 600;
+}    
 /***************SMALL SCREENS*****************/
 @media (min-width: 450px) {
     .small-width-25 {
