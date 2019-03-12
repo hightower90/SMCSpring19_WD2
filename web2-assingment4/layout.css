@@ -1,0 +1,157 @@
+
+
+body { 
+    margin: 0;
+}
+
+
+.floater-section {
+    float: left;
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.container {
+    background-color: pink;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/************ NAVBAR ************/
+
+nav.navbar {
+    width: 100%;
+    padding: 10px 0px;
+    float: left;
+}
+
+nav.navbar a { 
+    font-size: 22px;
+    text-decoration: none;
+    color: darkblue;
+    line-height: 36px;
+}
+
+nav.navbar ul {
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+
+nav.navbar li {
+    border-bottom: 2px  #FF0000;
+    font-family: 'Quicksands-Light', serif;
+    font-weight: 100;
+
+}
+
+nav.navbar li:last-child {
+    border-bottom: none;
+    border-right: none;
+}
+
+.active {
+        font-family: "Quicksands-Bold", serif; 
+} 
+
+
+
+/***************SMALL SCREENS*****************/
+@media (min-width: 450px) {
+    
+    .container {
+        width: 440px;
+    }
+    
+    .small-width-25 {
+        width: 25%;
+    }
+
+    .small-width-33 {
+        width: 33.333%;
+    }
+
+    .small-width-50 {
+        width: 50%;
+    }
+
+    .small-width-100 {
+        width: 100%;
+    } 
+
+    .h1    {
+        font-size: 22px;
+    }
+
+    .navbar a {
+        font-size: 12px;
+    }
+   
+}
+
+
+/***************MEDIUM SCREENS*****************/
+@media (min-width: 768px) {
+
+    .container {
+        width: 760px;
+    }
+
+    .med-width-25 {
+        width: 25%;
+    }
+    
+    .med-width-33 {
+        width: 33.3333%;
+    }
+
+    .med-width-50 {
+        width: 50%;
+    }
+
+    .med-width-100 {
+        width: 100%;
+    }
+
+    nav.navbar li {
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+}
+
+
+/***************LARGE SCREENS*****************/
+@media (min-width: 992px) {
+
+    .container {
+        width: 980px;
+    }
+
+    .large-width-25 {
+        width: 25%;
+    }
+    
+    .large-width-33 {
+        width: 33.3333%;
+    }
+
+    .large-width-50 {
+        width: 50%;
+    }
+
+    .large-width-100 {
+        width: 100%;
+    }
+
+    nav.navbar li {
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+
+    }

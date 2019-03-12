@@ -27,12 +27,13 @@ nav.navbar {
     width: 100%;
     padding: 10px 0px;
     float: left;
+    color: darkblue;
 }
 
 nav.navbar a { 
     font-size: 22px;
     text-decoration: none;
-    color: black;
+    color: darkblue;
     line-height: 36px;
 }
 

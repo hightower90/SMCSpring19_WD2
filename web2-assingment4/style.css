@@ -1,0 +1,34 @@
+
+
+@font-face {
+    font-family: 'Quicksand-Light', serif;
+    src: url ('/fonts/Quicksand-Light.ttf');
+}
+
+
+@font-face {
+    font-family: 'Quicksand-Regular', serif;
+    src: url ('/fonts/Quicksand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Quicksand-Medium', sans-serif;
+    src: url ('/fonts/Quicksand-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Quicksand-Bold', sans-serif;
+    src: url ('/fonts/Quicksand-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Mrs-Saint-Delafield', cursive;
+    src: url ('/fonts/MrsSaintDelafield-Regular.ttf');
+}
+
+.poem-title {
+    font-family: 'Mrs Saint Delafield', cursive;
+    color: black;
+    font-size: 36pt;
+    display: center;
+}
