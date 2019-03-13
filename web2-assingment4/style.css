@@ -26,9 +26,89 @@
     src: url ('/fonts/MrsSaintDelafield-Regular.ttf');
 }
 
-.poem-title {
+@font-face {
+    font-family: 'Cardo-Regular', serif;
+    src: url ('/fonts/Cardo-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Cardo-Italic', serif;
+    src: url ('/fonts/Cardo-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'Cardo-Bold', serif;
+    src: url ('/fonts/Cardo-Bold.ttf');
+}
+
+h1 {
     font-family: 'Mrs Saint Delafield', cursive;
     color: black;
     font-size: 36pt;
     display: center;
+
+} 
+
+h2 {
+    font-family: 'Quicksand-Medium', serif;
+}
+
+.poem-content {
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'Quicksand-Light', serif;
+
+}
+
+
+
+
+nav.navbar li {
+    font-family: 'Cardo-Regular', serif;
+    font-weight: 100;
+
+}
+
+.active {
+    font-family: 'Cardo-Italic', serif;
+    font-weight: 200;
+} 
+
+
+/******** PAGE ONE STYLES ********/
+
+.page-one {
+    background-color: lightskyblue;
+}
+
+
+/******** PAGE TWO STYLES ********/
+
+.page-two {
+    background-color: aquamarine;
+}
+
+
+/******** PAGE THREE STYLES ********/
+
+.page-three {
+    background-color: midnightblue;
+    color: white;
+    font-family: 'JosefinSlab-Regular', serif;
+  
+}
+
+
+#josefin-slab-regular {
+    font-family: 'JosefinSlab-Regular', serif;
+
+}
+
+#josefin-slab-italic {
+    font-family: 'JosefinSlab-Italic', serif;
+
+}
+
+#light-grey {
+    color: lightgray
 }

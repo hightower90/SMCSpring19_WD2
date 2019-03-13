@@ -9,12 +9,13 @@ body {
     float: left;
     width: 100%;
     min-height: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: inline-block;
 }
 
 .container {
-    background-color: pink;
+    margin-top: 4em;
+    height: 100px;
 }
 
 .clearfix {
@@ -42,31 +43,31 @@ nav.navbar ul {
     text-align: center;
 }
 
-nav.navbar li {
-    border-bottom: 2px  #FF0000;
-    font-family: 'Quicksands-Light', serif;
-    font-weight: 100;
-
-}
 
 nav.navbar li:last-child {
     border-bottom: none;
     border-right: none;
 }
 
-.active {
-        font-family: "Quicksands-Bold", serif; 
-} 
 
 
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  
 
 /***************SMALL SCREENS*****************/
 @media (min-width: 450px) {
     
-    .container {
+    /* .container {
         width: 440px;
-    }
+    } */
     
+   
     .small-width-25 {
         width: 25%;
     }
@@ -83,23 +84,18 @@ nav.navbar li:last-child {
         width: 100%;
     } 
 
-    .h1    {
-        font-size: 22px;
-    }
 
-    .navbar a {
-        font-size: 12px;
-    }
+
+
+}    
+
    
-}
+  
 
 
 /***************MEDIUM SCREENS*****************/
 @media (min-width: 768px) {
 
-    .container {
-        width: 760px;
-    }
 
     .med-width-25 {
         width: 25%;
@@ -122,15 +118,21 @@ nav.navbar li:last-child {
         padding-left: 20px;
         padding-right: 20px;
         }
+
+     
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+     }       
+    
 }
 
 
 /***************LARGE SCREENS*****************/
 @media (min-width: 992px) {
 
-    .container {
-        width: 980px;
-    }
+   
 
     .large-width-25 {
         width: 25%;
@@ -155,3 +157,36 @@ nav.navbar li:last-child {
         }
 
     }
+
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+
+
+    .m-t-4{
+        margin-top: 4em;
+    }
+
+    .m-l-8{
+        margin-left: 8em;
+    }
+
+    .text-center{
+        text-align: center
+    }
+
+}
+
+.left {
+        float:left;  
+        clear:both;    
+       }
+.right {
+         float:right;
+         clear: both;
+       }
+}
