@@ -1,0 +1,111 @@
+body { 
+    margin: 0;
+}
+
+.floater-section {
+    float: left;
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color:teal;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+
+/***************SMALL SCREENS*****************/
+@media (min-width: 450px) {
+    .small-width-25 {
+        width: 25%;
+    }
+
+    .small-width-33 {
+        width: 33.333%;
+    }
+
+    .small-width-50 {
+        width: 50%;
+    }
+
+    .small-width-66 {
+        width: 66%;
+    }
+
+    .small-width-100 {
+        width: 100%;
+    } 
+
+   
+}
+
+
+/***************MEDIUM SCREENS*****************/
+@media (min-width: 768px) {
+    .med-width-25 {
+        width: 25%;
+    }
+    
+    .med-width-33 {
+        width: 33.3333%;
+    }
+
+    .med-width-50 {
+        width: 50%;
+    }
+
+    .med-width-66 {
+        width: 66%;
+    }
+
+    .med-width-100 {
+        width: 100%;
+    }
+
+    #vertCenter1 {
+        position: relative;
+        height: 200px;
+
+    }
+
+    #vertCenter1 img {
+        position: absolute;;
+        height: 100px; /*because we calculated the margin*/
+
+
+
+    }
+
+/***************LARGE SCREENS*****************/
+@media (min-width: 992px) {
+    .large-width-25 {
+        width: 25%;
+    }
+    
+    .large-width-33 {
+        width: 33.3333%;
+    }
+
+    .large-width-50 {
+        width: 50%;
+    }
+
+    .large-width-66 {
+        width: 66%;
+    }
+
+    .large-width-100 {
+        width: 100%;
+    }
+
+    nav.navbar li {
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+
+    }

@@ -2,18 +2,18 @@
 
 @font-face {
     font-family: 'Quicksand-Light', serif;
-    src: url ('/fonts/Quicksand-Light.ttf');
+    src: url ('./fonts/Quicksand-Light.ttf');
 }
 
 
 @font-face {
     font-family: 'Quicksand-Regular', serif;
-    src: url ('/fonts/Quicksand-Regular.ttf');
+    src: url ('./fonts/Quicksand-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Quicksand-Medium', sans-serif;
-    src: url ('/fonts/Quicksand-Medium.ttf');
+    src: url ('./fonts/Quicksand-Medium.ttf');
 }
 
 @font-face {
@@ -23,17 +23,17 @@
 
 @font-face {
     font-family: 'Mrs-Saint-Delafield', cursive;
-    src: url ('/fonts/MrsSaintDelafield-Regular.ttf');
+    src: url ('./fonts/MrsSaintDelafield-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Cardo-Regular', serif;
-    src: url ('/fonts/Cardo-Regular.ttf');
+    src: url ('./fonts/Cardo-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Cardo-Italic', serif;
-    src: url ('/fonts/Cardo-Italic.ttf');
+    src: url ('./fonts/Cardo-Italic.ttf');
 }
 
 @font-face {
@@ -42,7 +42,7 @@
 }
 
 h1 {
-    font-family: 'Mrs Saint Delafield', cursive;
+    font-family: 'Quicksand-Bold', cursive;
     color: black;
     font-size: 36pt;
     display: center;
@@ -53,19 +53,26 @@ h2 {
     font-family: 'Quicksand-Medium', serif;
 }
 
+body {
+    kerning: 22pt;
+}
+
 .poem-content {
     text-align: center;
     font-size: 18pt;
     font-family: 'Quicksand-Light', serif;
+    
 
 }
 
 
+/************ NAVBAR ************/
 
 
 nav.navbar li {
     font-family: 'Cardo-Regular', serif;
     font-weight: 100;
+    background-color: 0%;
 
 }
 
@@ -91,11 +98,9 @@ nav.navbar li {
 
 /******** PAGE THREE STYLES ********/
 
-.page-three {
-    background-color: midnightblue;
-    color: white;
+body.page-three {
     font-family: 'JosefinSlab-Regular', serif;
-  
+    background-image: linear-gradient(skyblue, seagreen, midnightblue);
 }
 
 
@@ -106,6 +111,7 @@ nav.navbar li {
 
 #josefin-slab-italic {
     font-family: 'JosefinSlab-Italic', serif;
+    text-shadow: 0 0 3px white;
 
 }
 

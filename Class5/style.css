@@ -1,0 +1,29 @@
+.content {
+    position: relative;
+}
+
+#Lorem1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0px; /*marging affect the centering in this method!*/
+
+
+}
+
+#vertCenter1
+{
+    position: relative;
+}
+
+#vertCenter1 img {
+    position: absolute;
+  top: 50%;
+  height: 100px;
+  margin-top: -50px; 
+
+}
+
+#vertHOrizCenter1 h2 {
+    
+}
