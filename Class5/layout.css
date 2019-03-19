@@ -1,5 +1,6 @@
-body { 
-    margin: 0;
+.container {
+    margin: auto;
+    background-color: lemonchiffon;
 }
 
 .floater-section {
@@ -7,9 +8,14 @@ body {
     width: 100%;
     min-height: 200px;
     margin-bottom: 20px;
-    text-align: center;
-    display: inline-block;
-    background-color:teal;
+}
+
+.hide {
+    display: hide;
+}
+
+.show {
+    display: initial;
 }
 
 .clearfix {
@@ -20,6 +26,10 @@ body {
 
 /***************SMALL SCREENS*****************/
 @media (min-width: 450px) {
+    .container {
+        width: 440px;
+    }
+
     .small-width-25 {
         width: 25%;
     }
@@ -33,19 +43,34 @@ body {
     }
 
     .small-width-66 {
-        width: 66%;
+        width: 66.6666%;
+    }
+
+    .small-width-75 {
+        width: 75%;
     }
 
     .small-width-100 {
         width: 100%;
     } 
 
+    .small-hide {
+        display: hide;
+    }
+
+    .small-show {
+        display: initial;
+    }
    
 }
 
 
 /***************MEDIUM SCREENS*****************/
 @media (min-width: 768px) {
+    .container {
+        width: 760px;
+    }
+    
     .med-width-25 {
         width: 25%;
     }
@@ -59,29 +84,32 @@ body {
     }
 
     .med-width-66 {
-        width: 66%;
+        width: 66.6666%;
+    }
+
+    .med-width-75 {
+        width: 75%;
     }
 
     .med-width-100 {
         width: 100%;
     }
 
-    #vertCenter1 {
-        position: relative;
-        height: 200px;
-
+    .med-hide {
+        display: hide;
     }
 
-    #vertCenter1 img {
-        position: absolute;;
-        height: 100px; /*because we calculated the margin*/
-
-
-
+    .med-show {
+        display: initial;
     }
+
+}
 
 /***************LARGE SCREENS*****************/
 @media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
     .large-width-25 {
         width: 25%;
     }
@@ -95,17 +123,23 @@ body {
     }
 
     .large-width-66 {
-        width: 66%;
+        width: 66.6666%;
+    }
+
+    .large-width-75 {
+        width: 75%;
     }
 
     .large-width-100 {
         width: 100%;
     }
 
-    nav.navbar li {
-        display: inline-block;
-        padding-left: 20px;
-        padding-right: 20px;
-        }
-
+    .large-hide {
+        display: hide;
     }
+  
+    .large-show {
+        display: initial;
+    }
+
+}

@@ -27,6 +27,10 @@
     position: relative;
 }
 
+img {
+    width: 400px;
+}
+
 #vertiCenter1,
 #vertCenter2,
 #vertHorizCenter1 {
@@ -87,4 +91,21 @@
     justify-content: center;
     flex-direction: column;
     height: 400px;
+  }
+
+  .ghost-center {
+    position: relative;
+  }
+
+  .ghost-center::before {
+    content: " ";
+    display: inline-block;
+    height: 100%;
+    width: 1%;
+    vertical-align: middle;
+  }
+
+  .ghost-center p {
+    display: inline-block;
+    vertical-align: middle;
   }
