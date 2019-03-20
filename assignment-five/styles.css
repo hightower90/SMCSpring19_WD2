@@ -1,9 +1,9 @@
-.red {
-    background-color: lightcoral;
+.navy {
+    background-color: navy;
 }
 
-.green {
-    background-color: lightgreen;
+.grey {
+    background-color: lightslategrey;
 
 }
 
@@ -11,8 +11,8 @@
     background-color: lightskyblue;
 }
 
-.yellow {
-    background-color: lightgoldenrodyellow;
+.white {
+    background-color: whitesmoke;
 }
 
 .cyan {
@@ -23,12 +23,27 @@
     background-color: plum;
 }
 
+.florian {
+    background-image: url(./img/florian-henkel.jpg);
+    /* width: 440px; */
+    text-align: justify;
+    color: whitesmoke;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.saskia {
+    background-image: url(./img/saskia-with-boy.jpg);
+    text-align: center;
+    /* width: 440x; */
+}
+
 .content {
     position: relative;
 }
 
 img {
-    width: 400px;
+    width: 80%;
+    padding: 10%;
 }
 
 #vertiCenter1,
@@ -86,7 +101,7 @@ img {
        
 }
 
-.flex-center-vertically {
+/* .flex-center-vertically {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -108,4 +123,50 @@ img {
   .ghost-center p {
     display: inline-block;
     vertical-align: middle;
+  } */
+
+
+
+  /* UNKNOWN HEIGHT AND WIDTH */
+
+  .parent {
+    position: relative;
+  }
+  .child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  CSS Result
+  EDIT ON
+   body {
+    background: #f06d06;
+    font-size: 80%;
+    padding: 20px;
+  }
+  
+  main {
+    position: relative;
+    background: white;
+    height: 200px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+  }
+  
+  main div {
+    background: black;
+    color: white;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    resize: both;
+    overflow: auto;
   }
