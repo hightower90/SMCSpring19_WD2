@@ -1,8 +1,9 @@
-.container {
-    margin: auto;
-    background-color: lemonchiffon;
 
+
+body { 
+    margin: 0;
 }
+
 
 .floater-section {
     float: left;
@@ -11,19 +12,48 @@
     margin-bottom: 20px;
 }
 
-.hide {
-    display: hide;
-}
-
-.show {
-    display: initial;
+.container {
+    height: 100px;
 }
 
 .clearfix {
     clear: both;
 }
+  
+/******* NAVIGATION BAR ********/
 
+nav.navbar {
+    width: 100%;
+    padding: 10px 0px;
+    float: left;
+}
 
+nav.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+   
+  }
+  
+  nav.navbar li {
+    float: center;
+  }
+  
+  nav.navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  nav.navbar li a:hover {
+    background-color: #111;
+  }  
 
 /***************SMALL SCREENS*****************/
 @media (min-width: 450px) {
@@ -55,13 +85,13 @@
         width: 100%;
     } 
 
-    .small-hide {
-        display: hide;
-    }
 
-    .small-show {
-        display: initial;
-    }
+    li {
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+   
    
 }
 
@@ -96,9 +126,6 @@
         width: 100%;
     }
 
-    .dropbtn {
-       display: none;
-    }
 
 }
 
@@ -131,16 +158,5 @@
         width: 100%;
     }
 
-    .large-hide {
-        display: hide;
-    }
-  
-    .large-show {
-        display: initial;
-    }
-
-    .dropbtn {
-        display: none;
-     }
 
 }
